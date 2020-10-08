@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;   
+}
+
+nav a.link1 {
+    font-family: Roboto Mono;
+    color: #fff;
+    text-decoration: none;
+    background-color: #FF764E;
+    border-radius: 20px;
+    padding: 2% 4%;
+    margin-right: 5%;
+}
+
+nav a.link2 {
+    font-family: Roboto Mono;
+    color: #fff;
+    text-decoration: none;
+    background-color: #5ED3EB;
+    border-radius: 20px;
+    padding: 2% 4%;
+    margin-right: 5%;
+}
+
+nav a.link3 {
+    font-family: Roboto Mono;
+    color: #fff;
+    text-decoration: none;
+    background-color: #FFCD69;
+    border-radius: 20px;
+    padding: 2% 4%;
+    margin-right: 5%;
+}
+   
+.container {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div img.header-image {
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+    margin-right: 140px;
+}
+
+.container2 {
+    margin-top: 60px;
+}
+
+div h1.yosemite {
+    font-family: Chelsea Market;
+    font-size: 40px;
+    text-align: center;
+}
+
+div.line1 {
+    line-height: 30px;
+    padding-top: 20px;
+    font-family: Roboto Mono;
+    text-align: center;
+}
+
+div.container3 {
+    font-family: Roboto Mono;
+    color: #fff;
+    background-color: #DDB9A3;
+    text-align: center;
+    margin: 3% 5%;
+    padding: 5%;
+}
+
+div.container4 {
+    display: block;
+    text-align: center;
+    font-family: Roboto Mono;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+img.content-image {
+    width: 10%;
+    height: auto;
+}
+
+.para1 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.para2 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+footer.container5 {
+    background-color: #F9E7DC;
+    padding-bottom: 2%;
+    margin-top: 3%;
+}
+
+footer img.footer-image {
+    width: 100%;
+    height: 400px ;
+}
+
+span {
+    font-weight: bold;
+}
+
